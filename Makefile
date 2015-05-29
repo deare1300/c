@@ -1,3 +1,4 @@
+#local
 ifneq ($(KERNELRELEASE),)  
 obj-m :=rs232_serial.o  
 else  
